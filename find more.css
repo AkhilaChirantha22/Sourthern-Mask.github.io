@@ -1,0 +1,271 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#banner{
+    background: linear-gradient(rgb(0,0,0,0.5),black), url("https://images.unsplash.com/photo-1598644656788-c77be17dfc56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE0fHx8ZW58MHx8fHw%3D&w=1000&q=80");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.logo{
+    width: 100px;
+    position: absolute;
+    top: 2%;
+    left: 3%;
+}
+
+.BANNER-TEXT{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+}
+
+.BANNER-TEXT h1{
+    font-size: 80px;
+    font-family: Trattatello; 
+    
+}
+
+.BANNER-TEXT p{
+    font-size: 30px;
+    font-style: italic;
+    font-family: Fantasy;
+}
+.social-links{
+
+    text-align:  center;
+}
+.social-img{
+
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1.5px solid yellow;
+    border-radius: 7px;
+    margin: 40px 5px 0;
+    color: #009688;
+    cursor: pointer;
+    transition: 1s;
+}
+.social-img:hover{
+    background: white;
+    color: #fff;
+    transform: translateY(-7px)
+}
+
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper{
+
+    width: 80%;
+    height: fit-content;
+}
+.swiper-slide img{
+    padding-top: 0%;
+    width: 100%;
+    opacity: .6;
+    position: relative;
+
+}
+.swiper .swiper-button-prev, .swiper .swiper-button-next{
+    color: white;
+}
+.swiper .swiper-pagination-bullet-active{
+    background: white;
+}
+
+.content{
+    
+     margin: auto;
+    font-size: 20px;
+    color: #009688;
+    font-weight: bold;
+    
+    z-index: 1;
+    display: inline-block;
+    text-align: center;
+
+}
+p{
+    font-size: 28px;
+    padding-top: 3%;
+    text-align: center;
+    color: #008898;
+}
+.desc p{
+    padding-top: 3%;
+    text-align: justify;
+    padding-right: 6%;
+    padding-left: 6%;
+    font-size: 20px;
+    color: darkslateblue;
+}
+
+
+
+
+
+
+
+
+#products{
+     width: 100%;
+    height: 700vh;
+    background: black;
+
+}
+.title h1{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2%;
+
+}
+.title p{
+    font-size: 15px;
+    text-align: center;
+
+}
+.feature-text li{
+    color: white;
+    list-style: square;
+    text-align: justify;
+    padding-left: 3px;
+}
+.features h1{
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 250;
+    font-family: American Typewriter;
+    color: white;
+   
+}
+.feature-box{
+    padding-top: 9%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.features{
+    flex-basis: 50%;
+}
+.features-img{
+
+    flex-basis: 50%;
+    margin: auto;
+}
+.features-img img{
+    width: 45%;
+    height: 45%;
+    
+}
+.features h1{
+    text-align: left;
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 250;
+    font-family: American Typewriter;
+   
+}
+.features-desc{
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+
+.feature-text p{
+
+    padding: 0 20px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: Times New Roman;
+    color: gray;
+}
+@media screen and (max-width:770px){
+    
+    .title-text h1{
+        font-size:35px;
+    }
+    .fearures{
+        flex-basis:100%;
+    }
+    .features-img{
+        flex-basis:100%;
+    }
+    .features-img img{
+        width:40%;
+        height: 40%;
+
+    }
+    .title h1{
+    font-size: 20px;
+    }
+    .title p{
+        text-align: center;
+    font-size: 7px;
+    }
+    .feature-box{
+        width: 100%;
+
+        margin: 4px 4px;
+    }
+    .features h1{
+        font-size: 15px;
+        font-weight: 120;
+    }
+    .feature-text p{
+        font-size: 10px;
+
+    }
+    .features-desc{
+    display: flex;
+    
+    margin-bottom: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#App{
+    background: #85929E;
+}
